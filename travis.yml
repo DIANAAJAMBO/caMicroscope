@@ -6,4 +6,4 @@ install:
   - npm install
 
 script:
-  - npm test
+  - npm run start & sleep 5; npm run test-pa11y;
